@@ -2930,7 +2930,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url('../images/freeimg_64013562freejpg850.jpg');
+  background-image: url('../images/final-le-pont-2.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3798,10 +3798,12 @@ a {
 .section-3.treasure-hunt {
   height: auto;
   min-height: 84vw;
-  background-image: url('../images/bg1x.jpg');
-  background-position: 50% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/final-le-pont-2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/final-le-pont-2.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
   color: #fff;
 }
 
@@ -4593,7 +4595,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 620px;
+  height: 90vh;
   margin-bottom: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -4604,11 +4606,17 @@ a {
   -ms-flex-align: center;
   align-items: center;
   background-color: #f4f4f4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/back-desktop1x.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/back-desktop1x.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/final-la-lettre-phi.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/final-la-lettre-phi.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
+  background-attachment: scroll, scroll;
   color: #fff;
+}
+
+.intro-header._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/final-le-pont-2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/final-le-pont-2.jpg');
 }
 
 .section-heading {
